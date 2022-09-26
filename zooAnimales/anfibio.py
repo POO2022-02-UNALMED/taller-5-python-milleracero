@@ -24,7 +24,7 @@ class Anfibio(Animal):
     @classmethod
     def crearSalamandra(cls, nombre, edad, genero):
         salamandra = Anfibio(nombre, edad, "selva", genero, "negro y amarillo", False)
-        cls.__listado.append(salamandra)
+        cls._listado.append(salamandra)
         cls.salamandras += 1
 
     def setListado(self, listado):

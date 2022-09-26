@@ -51,9 +51,9 @@ class Animal:
         return men
 
     def toString(self):
-        if self.__zona != [] and self.__zona[0].getZoo() != None:
-            men = f"Mi nombre es {self.__nombre}, tengo una edad de {self.__edad}, habito en {self.__habitat} y mi genero es {self.__genero} la zona en la que me ubico es {self.__zona} en el {self.__zona[0].getZoo()}"
+        if self._zona != [] and self._zona[0].getZoo() != None:
+            men = f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero} la zona en la que me ubico es {self._zona} en el {self._zona[0].getZoo()}"
             return men
         else:
-            men = f"Mi nombre es {self.__nombre}, tengo una edad de {self.__edad}, habito en {self.__habitat} y mi genero es {self.__genero}"
+            men = f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}"
             return men
